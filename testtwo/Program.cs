@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-//for sawager
+//for sawager fgf
 builder.Services.AddSwaggerGen();
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
